@@ -1,0 +1,39 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="col-xs-12 header_div text-center">
+          <h2> Identificador de sonidos de animales</h2>
+          <p>Has sonidos de animales como ladridos o maullidos</p>     
+        </div>
+        <div class="main_div">
+          <center>
+          <br>
+          <button class="btn btn-info" onclick="starClassification();">Comenzar</button>
+          <h3 id="result_label">Escucho:</h3>
+          <h4 id="result_confidence">Precision:</h4>
+          <br>
+          <img src="Doggy.jfif" id="perro" width="300" height="300">
+          <img src="Cat confused.jfif" id="gato" width="300" height="300">
+          <img src="Televisa presenta pajaro.jfif" id="pajaro" width="300" height="300">
+          <img src="Leon gringo meme.jfif" id="Leon" width="300" height="300">
+          </center>
+          </div>
+          <div class="copy_right_footer">
+            Creado por Aleja
+          </div>
+    <script src="main.js"></script>
+      </body>
+    </html>
